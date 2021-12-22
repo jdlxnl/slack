@@ -1,0 +1,26 @@
+{
+    "name": "jdlxnl/slack",
+    "description": "Wrapper around slack library to make notification easier",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jeroen de Lau",
+            "email": "jeroen.delau@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/slack-notification-channel": "^2.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jdlx\\Slack\\JdlxSlackServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Jdlx\\Slack\\": "src/"
+        }
+    }
+}
