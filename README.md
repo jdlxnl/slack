@@ -4,17 +4,6 @@ Mainly focussed around Personas as sender, and functionality to build
 custom payloads.
 
 ## Installation
-Add the package by loading it through composer.
-
-Add this repository to your composer.json
-```json
-{
-    "repositories": [
-        { "name": "jdlxnl/slack", "type": "vcs", "url": "https://github.com/jdlxnl/slack" }
-    ]
-}
-```
-
 ```shell
 composer require jdlxnl/slack
 ```

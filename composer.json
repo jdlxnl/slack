@@ -2,6 +2,7 @@
     "name": "jdlxnl/slack",
     "description": "Wrapper around slack library to make notification easier",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jeroen de Lau",
